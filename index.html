@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <center>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione Appuntamenti</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.33.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h2>Gestione Note 1.0</h2>
+    <input type="text" id="edtNota" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs" >
+    <div class="btn-group">
+      <div>  
+        <button id="btnAdd" class="btn btn-primary">Aggiungi ..</button>
+      </div>
+      <div>
+        <button id="btnClear" class="btn btn-primary">Cancella Lista ..</button>
+      </div>
+      </div>
+    <br>
+   
+    <!-- <ul id="listaTask">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul> -->
+    <div class="overflow-x-auto">
+        <table class="table w-full">
+          <!-- head -->
+          <thead>
+            <tr>
+              <th>N.</th>
+              <th>Data</th>
+              <th>Ora</th>
+              <th>Task</th>
+              <th>Sel.</th>
+            </tr>
+          </thead>
+          <tbody id="bodyTask">
+            <!-- row 1 -->
+            <!-- <tr>
+              <th>1</th>
+              <td>29/10/2022</td>
+              <td>11:24:00</td>
+              <td>DaisyUI Usage</td>
+            </tr> -->
+          </tbody>
+        </table>
+        
+      </div>
+    </center>
+<script src="main.js"></script>    
+</body>
+</html>
